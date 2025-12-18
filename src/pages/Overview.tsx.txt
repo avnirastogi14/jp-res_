@@ -1,0 +1,44 @@
+import Navbar from "../components/Navbar";
+import GradeChart from "../components/GradeChart";
+
+export default function Overview() {
+  return (
+    <div className="page">
+    <Navbar />
+
+      <GradeChart />
+
+      <div className="semester-summary">
+        <div className="summary-card">
+          <h4>Semester 1</h4>
+          <p className="green">8.7 SGPA</p>
+          <p>GP: 161 / 185</p>
+        </div>
+
+        <div className="summary-card">
+          <h4>Semester 2</h4>
+          <p className="green">9.7 SGPA</p>
+          <p>GP: 198 / 205</p>
+        </div>
+
+        <div className="summary-card">
+          <h4>Semester 3</h4>
+          <p className="green">9.0 SGPA</p>
+          <p>GP: 205 / 230</p>
+        </div>
+
+        <div className="summary-card">
+          <h4>Semester 4</h4>
+          <p className="green">9.2 SGPA</p>
+          <p>GP: 183 / 200</p>
+        </div>
+
+        <div className="summary-card">
+          <h4>Semester 5</h4>
+          <p className="green">8.9 SGPA</p>
+          <p>GP: 203 / 230</p>
+        </div>
+      </div>
+    </div>
+  );
+}

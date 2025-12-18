@@ -1,0 +1,47 @@
+body {
+  background: #000;
+  color: white;
+  font-family: Inter, sans-serif;
+}
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-card {
+  background: #111;
+  padding: 30px;
+  border-radius: 12px;
+  width: 320px;
+}
+
+.login-card input {
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  background: #222;
+  border: none;
+  color: white;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background: white;
+  color: black;
+  font-weight: bold;
+  border-radius: 6px;
+}
+
+.error {
+  color: red;
+}
+
+.card {
+  background: #111;
+  padding: 15px;
+  border-radius: 10px;
+}

@@ -1,0 +1,30 @@
+const subjects = [
+  { name: "Computer Organisation and Architecture", code: "15B11CI313", grade: "A", credits: 4 },
+  { name: "Introduction to Big Data and Data Analytics", code: "20B12CS333", grade: "A", credits: 3 },
+  { name: "Indian Constitution & Traditional Knowledge", code: "20B13HS311", grade: "B+", credits: 0 },
+  { name: "COA Lab", code: "15B17CI373", grade: "A", credits: 1 },
+  { name: "Open Source Software Lab", code: "15B17CI575", grade: "B+", credits: 1 },
+  { name: "Operating Systems", code: "15B11CI412", grade: "A", credits: 1 },
+  { name: "Engineering Materials", code: "20B12PH311", grade: "A", credits: 3 },
+  { name: "Consumer Behaviour", code: "25B12HS311", grade: "A+", credits: 3 },
+  { name: "OS Lab", code: "15B17CI472", grade: "B+", credits: 4 },
+  { name: "Information Security Lab", code: "15B17CI576", grade: "A", credits: 1 },
+];
+
+export default function Semester() {
+  return (
+    <div className="page">
+      <div className="semester-header">2025ODDSEM</div>
+
+      <div className="subject-grid">
+        {subjects.map((s) => (
+          <div className="subject-card" key={s.code}>
+            <h4>{s.name}</h4>
+            <p>{s.code}</p>
+            <p>{s.grade} • {s.credits} Credits</p>
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+}
