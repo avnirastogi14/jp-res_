@@ -75,6 +75,20 @@ export default function Overview() {
             <span className="labels">SGPA&nbsp;&nbsp;CGPA</span>
             </div>
         </div>
+
+        <div className="summary-card">
+            <div className="summary-top">
+            <span className="sem-title">Semester 6</span>
+            <div className="gpa-values">
+                <span className="sgpa">9.2</span>
+                <span className="cgpa">9.0</span>
+            </div>
+            </div>
+            <div className="summary-bottom">
+            <span>GP: 211.0 / 230</span>
+            <span className="labels">SGPA&nbsp;&nbsp;CGPA</span>
+            </div>
+        </div>
         </div>
     </div>
   );

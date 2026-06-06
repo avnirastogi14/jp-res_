@@ -14,6 +14,7 @@ const data = [
   { semester: 3, sgpa: 9.0, cgpa: 9.1 },
   { semester: 4, sgpa: 9.2, cgpa: 9.1 },
   { semester: 5, sgpa: 8.9, cgpa: 9.0 },
+  { semester: 6, sgpa: 9.2, cgpa: 9.0 },
 ];
 
 const CustomTooltip = ({ active, payload, label }: any) => {
