@@ -57,7 +57,7 @@ export default function Semester() {
   return (
     <div className="page">
       <div className="semester-header">
-        <h3>2025ODDSEM</h3>
+        <h3>2026EVENSEM</h3>
       </div>
 
 
